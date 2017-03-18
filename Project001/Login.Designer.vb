@@ -94,7 +94,6 @@ Partial Class FormLogin
         Me.Controls.Add(Me.Label1)
         Me.Name = "FormLogin"
         Me.Text = "Login"
-        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
