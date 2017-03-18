@@ -33,7 +33,7 @@ Partial Class FormLogin
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(343, 255)
+        Me.Label1.Location = New System.Drawing.Point(30, 21)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(55, 13)
         Me.Label1.TabIndex = 0
@@ -42,7 +42,7 @@ Partial Class FormLogin
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(343, 293)
+        Me.Label2.Location = New System.Drawing.Point(30, 59)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(53, 13)
         Me.Label2.TabIndex = 1
@@ -50,21 +50,21 @@ Partial Class FormLogin
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(440, 255)
+        Me.TextBox1.Location = New System.Drawing.Point(127, 21)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(201, 20)
         Me.TextBox1.TabIndex = 2
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(440, 290)
+        Me.TextBox2.Location = New System.Drawing.Point(127, 56)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(201, 20)
         Me.TextBox2.TabIndex = 3
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(456, 339)
+        Me.Button1.Location = New System.Drawing.Point(143, 105)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 4
@@ -74,7 +74,7 @@ Partial Class FormLogin
         'LinkLabel1
         '
         Me.LinkLabel1.AutoSize = True
-        Me.LinkLabel1.Location = New System.Drawing.Point(453, 400)
+        Me.LinkLabel1.Location = New System.Drawing.Point(140, 166)
         Me.LinkLabel1.Name = "LinkLabel1"
         Me.LinkLabel1.Size = New System.Drawing.Size(95, 13)
         Me.LinkLabel1.TabIndex = 6
@@ -85,7 +85,7 @@ Partial Class FormLogin
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(731, 538)
+        Me.ClientSize = New System.Drawing.Size(350, 205)
         Me.Controls.Add(Me.LinkLabel1)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.TextBox2)
