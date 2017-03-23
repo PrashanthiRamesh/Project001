@@ -52,12 +52,16 @@ Public Class startupClass
 
         Dim tables_name As String() = {
             "user",
-            "customer"
+            "customer",
+            "bill",
+            "order"
         }
 
         Dim tables_query As String() = {
-            "CREATE TABLE [user] ([uid] COUNTER, [name] TEXT(50), [password] TEXT(50), [email] TEXT(50), [phone] TEXT(50), created_at DATETIME, created_time TEXT(20), updated_at DATETIME, updated_time TEXT(20))",
-            "CREATE TABLE [customer] ([Field1] TEXT(10), [Field2] TEXT(10))"
+            "CREATE TABLE [user] ([uid] COUNTER, [name] TEXT(50), [password] TEXT(50), [email] TEXT(50), [phone] TEXT(50), created_on DATETIME, created_time TEXT(20), updated_on DATETIME, updated_time TEXT(20))",
+            "CREATE TABLE [customer] ([cid] COUNTER, [cname] TEXT(50) NOT NULL, [cphone] TEXT(50) NOT NULL, [credit] TEXT(50), [cmeasurements] TEXT(100), [pending_flag] BIT , created_on DATETIME, created_time TEXT(20), updated_on DATETIME, updated_time TEXT(20))",
+            "CREATE TABLE [bill] ([bid] COUNTER, [cname] TEXT(50) NOT NULL, [cphone] TEXT(50) NOT NULL, [delivery_date] DATETIME, [delivery_time] TEXT(20), [total_amount] TEXT(50) , created_on DATETIME, created_time TEXT(20), updated_on DATETIME, updated_time TEXT(20))",
+            "CREATE TABLE [order] ([oid] COUNTER, [bid] NUMBER, [item] TEXT(50), [price] TEXT(50), [quantity] NUMBER, [pending_flag] BIT, [total_quantity] NUMBER, created_on DATETIME, created_time TEXT(20), updated_on DATETIME, updated_time TEXT(20) )"
         }
 
 
